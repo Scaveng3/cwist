@@ -1,0 +1,305 @@
+nav.one a.button:link, a.button:visited{
+    color: white;  
+                                                                                                                                                                                                                                                                                                                                   
+}
+nav a.button:link, a.button:hover{
+  color :black
+}
+
+body.one{
+  font-family: Arial, sans-serif;
+  background: url(https://i.pinimg.com/564x/88/8e/1f/888e1f7c500d5e82625f2701db7ad90f.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+body.two{
+  width: 100%;
+  height: 100vh;
+  background-image: url("crisbg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color:white;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+h1 {
+  text-align: center;
+  margin-top: 250px;
+}
+
+.box {
+  width: 300px;
+  margin: 10px auto;
+  background: skyblue;
+  padding: 20px;
+  border: 6px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 2em;
+  border: 3px solid pl;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 300px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 10%;
+  position: relative;
+  transition: all 1s ease-in;
+}
+.password{
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+  margin-top: 10px;
+}
+.Username{
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+}
+.login{
+  width:50%;
+  margin-left:27%;
+  margin-right:25%;
+  float: none;
+}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: violet;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+#hello{
+  text-align: center;
+  margin-top: 300px;
+  font-size: 2em;
+}
+.logout{
+  margin-left:48%;
+  margin-right:25%;
+
+}
+header{
+  height: 10px;
+  position:fixed;
+  top: 0;
+  z-index: 10;
+}
+.slides
+{
+  height: 300px;
+  max-width: 600px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+nav.two li{
+  display: inline;
+  float: left;
+}
+.logout{    
+  color: lightcoral;
+  display: block;
+  width: 110px;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 10px; 
+  text-decoration: none;
+  font-family: 'Concert One', cursive;
+  font-weight: bold;
+  font-size: 180%;
+}
+
+nav.two a:link, a:visited{
+  color: lightcoral;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px; 
+  text-decoration: none;
+  font-family: 'Concert One', cursive;
+  font-weight: bold;
+  font-size: 180%;
+                                                                                                                                                                                                                                                                                                                              
+}
+nav.two a:hover{
+  color: black;
+}
+
+#info{
+  margin-top: auto;
+  border: none;
+}
+
+.hometype{
+  color: black;
+  position: relative; 
+  width: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 170px;
+  font-family: 'Courier Prime', monospace;
+  font-size: 190%;
+  border-right: 4px solid rgba(255,255,255,.75);
+  text-align: center ;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.typer{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+.fun{
+  color: midnightblue;
+  position: relative; 
+  width: 180px;
+  margin:auto;
+  margin-top: 280px;
+  font-family: 'Courier Prime', monospace;
+  font-size: 250%;
+  border-right: 3px solid rgba(255,255,255,.75);
+  text-align: center ;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.facts{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 100%;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+#mytable{
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+ 
+}
+#mytable2{
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 350px;
+ 
+}
+#mytable3{
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Courier Prime', monospace;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 40px;
+  padding: 80px;
+}
+td{
+  
+  border-color: blue;
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Courier Prime', monospace;
+  padding: 30px;
+  
+}
+.cap{
+  font-family: 'Courier Prime', monospace;
+  font-size: xx-large;
+  color:lightcoral;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.cap2{
+  font-family: 'Courier Prime', monospace;
+  font-size: xx-large;
+  color:lightcoral ;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+#cap3{
+  font-family: 'Courier Prime', monospace;
+  font-size: xx-large;
+  color:lightcoral;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-bottom: 110px;
+  margin-right: auto;
+}
+.footer-logo{
+  width:90%; height:950px;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: auto;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Myself</title>
+</head>
+<body class="two">
+    <link rel="stylesheet" href="calcu.css">
+    <header>
+        <nav class="two">
+                <li><a href="#mytable">Autobiography</a></li>
+                <li><a href="#mytable2">Fun Facts</a></li>
+                <li><a href="#mytable3">Dreams</a></li>
+                <li><a href="#mytable4">Motto in Life</a></li>
+                <li><a button class="logout" onclick="location.href='intro.html';">Log out</button></a></li>
+        </nav>
+    </header>
+
+    <div class="slides">
+        <img class="mySlides" src="cris1.jpg" style="width: 100%;;">
+        <img class="mySlides" src="cris2.jpg" style="width: 100%;;">
+        <img class="mySlides" src="cris3.jpg" style="width: 100%;">
+        <img class="mySlides" src="cris4.jpg" style="width: 100%;">
+        <img class="mySlides" src="cris5.jpeg" style="width: 100%;;">
+        <img class="mySlides" src="cris6.jpg" style="width: 100%;;">
+        <img class="mySlides" src="cris7.jpg" style="width: 100%;">
+        <img class="mySlides" src="cris8.jpg" style="width: 100%;">
+        <img class="mySlides" src="cris9.jpg" style="width: 100%;">
+        <img class="mySlides" src="cris10.jpg" style="width: 100%;">
+    </div>
+
+   <fieldset id="info">
+    <p class="hometype typer"><b>Hi! My name is Cristina and this is my creative way of introducing myself✨</b></p>
+   </fieldset>
+   <table id="mytable" class="tbl";>
+        <caption class="cap"><b>Autobiography</b></caption>
+            <tr>
+                <td><b>Name</b></td>
+                <td>Cristina Panis</td>
+            </tr>
+            <tr>
+                <td><b>Nickname</b></td>
+                <td>Che/Tina</td>
+            </tr>
+            <tr>
+                <td><b>Birthday</b></td>
+                <td>July 24, 2004</td>
+            </tr>
+            <tr>
+                <td><b>Age</b></td>
+                <td>18 years old</td>
+            </tr>
+            <tr>
+                <td><b>Zodiac Sign</b></td>
+                <td>Leo♌</td>
+            </tr>
+            <tr>
+                <td><b>Favourite Flower</b></td>
+                <td>Tulips🌷</td>
+            </tr>
+            <tr>
+            <td><b>Dream Job</b></td>
+                <td>Chef👨‍🍳</td>
+        </tr>
+   </table>
+   <table id="mytable2" class="tbl2">
+        <caption class="cap2"><b>Fun Facts</b></caption>
+            <tr>
+                <td>Loves to Sleep😴 & Eat🍔.</td>
+            </tr>
+            <tr>
+                <td>Making TikTok Videos Relieve My Stress💃.</td>
+            </tr>
+            <tr>
+                <td>I love cats🐈🐱</td>
+            </tr>
+            <tr>
+                <td>I'm an extrovert, it's easy for me to make friends👪.</td>
+            </tr>
+            <tr>
+                <td>I'm a carbon copy of my mother👩‍👧</td>
+            </tr>
+   </table>
+
+   <section id="mytable3" class="tbl3">
+    <h2 id="cap3"><b>Dreams</b></h2>       
+        <p>I'm a student at Our Lady of Fatima Quezon City pursuing a Bachelor of Science in Hospitality Management major in Culinary Arts. I am a freshman who aspires to be a professional chef on one of the world's greatest cruise ships someday. However, as a human being and a daughter of my parents, my goal is to make them proud of me, to watch them applaud my accomplishments and stand proud. I want to be successful enough to support my family. But, at the end of the day, I feel that accomplishing all of this will be futile if we are not content and happy with one another.</p>    
+   </section>
+        <footer id="mytable4" class="tbl4">
+            <nav>
+            <img class="footer-logo" src="crisbg2.png">
+            </nav>
+        </footer>
+   <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+</html>

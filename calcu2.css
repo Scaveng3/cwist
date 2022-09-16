@@ -1,0 +1,192 @@
+body.two{
+    width: 100%;
+    height: 100vh;
+    background-image: url("crisbg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:white;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+#hello{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 2em;
+}
+.logout{
+    margin-left:48%;
+    margin-right:25%;
+
+}
+header{
+    height: 10px;
+    position:fixed;
+    top: 0;
+    z-index: 10;
+}
+.slides
+{
+    height: 300px;
+    max-width: 600px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav.two li{
+    display: inline;
+    float: left;
+}
+.logout{    
+    color: lightcoral;
+    display: block;
+    width: 110px;
+    text-align: center;
+    margin-left: 900px;
+    margin-top: 10px; 
+    text-decoration: none;
+    font-family: 'Concert One', cursive;
+    font-weight: bold;
+    font-size: 180%;
+    position: fixed;
+}
+
+nav.two a:link, a:visited{
+    color: lightcoral;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px; 
+    text-decoration: none;
+    font-family: 'Concert One', cursive;
+    font-weight: bold;
+    font-size: 180%;
+                                                                                                                                                                                                                                                                                                                                
+}
+nav.two a:hover{
+    color: black;
+}
+
+#info{
+    margin-top: auto;
+    border: none;
+}
+
+.hometype{
+    color: black;
+    position: relative; 
+    width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 190%;
+    border-right: 4px solid rgba(255,255,255,.75);
+    text-align: center ;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.typer{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+.fun{
+    color: midnightblue;
+    position: relative; 
+    width: 180px;
+    margin:auto;
+    margin-top: 280px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 250%;
+    border-right: 3px solid rgba(255,255,255,.75);
+    text-align: center ;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.facts{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 100%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+#mytable{
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+   
+}
+#mytable2{
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+   
+}
+#mytable3{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier Prime', monospace;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 40px;
+    padding: 80px;
+}
+td{
+    
+    border-color: blue;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier Prime', monospace;
+    padding: 30px;
+    
+}
+.cap{
+    font-family: 'Courier Prime', monospace;
+    font-size: xx-large;
+    color:lightcoral;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.cap2{
+    font-family: 'Courier Prime', monospace;
+    font-size: xx-large;
+    color:lightcoral ;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+#cap3{
+    font-family: 'Courier Prime', monospace;
+    font-size: xx-large;
+    color:lightcoral;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-bottom: 110px;
+    margin-right: auto;
+}
+.footer-logo{
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: auto;
+}
